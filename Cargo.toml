@@ -1,0 +1,5 @@
+[workspace]
+members = [
+    "src/screamfinal_backend"
+]
+resolver = "2"

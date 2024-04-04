@@ -1,0 +1,26 @@
+{
+  "canisters": {
+    "screamfinal_backend": {
+      "candid": "src/screamfinal_backend/screamfinal_backend.did",
+      "package": "screamfinal_backend",
+      "type": "rust"
+    },
+    "screamfinal_frontend": {
+      "dependencies": [
+        "screamfinal_backend"
+      ],
+      "source": [
+        "src/screamfinal_frontend/assets"
+      ],
+      "type": "assets"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
